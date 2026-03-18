@@ -3,15 +3,21 @@
 API REST desenvolvida com Java e Spring Boot para gerenciamento de pedidos.
 Este projeto foi criado com o objetivo de praticar a construção de APIs backend organizadas, utilizando arquitetura em camadas e integração com banco de dados.
 
+![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
+![Java](https://img.shields.io/badge/Java-17-orange)
+![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
+![Maven](https://img.shields.io/badge/Maven-3.8+-red)
+
 ## 🚀 Tecnologias
 
-- Java 17
-- Spring Boot
-- Spring Web
-- Spring Data JPA
-- Hibernate
-- MySQL
-- Maven
+- ![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square) Java 17
+- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green?style=flat-square) Spring Boot
+- ![Spring Web](https://img.shields.io/badge/Spring-Web-green?style=flat-square) Spring Web
+- ![Spring Data JPA](https://img.shields.io/badge/Spring-Data%20JPA-green?style=flat-square) Spring Data JPA
+- ![Hibernate](https://img.shields.io/badge/Hibernate-ORM-blue?style=flat-square) Hibernate
+- ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square) MySQL
+- ![Maven](https://img.shields.io/badge/Maven-3.8+-red?style=flat-square) Maven
 
 ## 📚 Funcionalidades
 
@@ -54,7 +60,7 @@ src/main/java/com/paulo/ordermanagementapi
 ├── service
 ├── repository
 ├── entity
-├── dto
+├��─ dto
 └── exception
 ```
 
@@ -68,3 +74,7 @@ Este projeto foi desenvolvido com o objetivo de praticar:
 - Organização de projetos backend em arquitetura em camadas
 - Integração com banco de dados usando JPA e Hibernate
 - Implementação de CRUD completo
+
+## 👨‍💻 Autor
+
+**Paulo Viola** - [GitHub](https://github.com/pauloviola16)
