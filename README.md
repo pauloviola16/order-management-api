@@ -3,7 +3,7 @@
 API REST desenvolvida com Java e Spring Boot para gerenciamento de pedidos.
 Este projeto foi criado com o objetivo de praticar a construção de APIs backend organizadas, utilizando arquitetura em camadas e integração com banco de dados.
 
-![Status](https://img.shields.io/badge/Status-Completo-brightgreen)
+![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-yellow)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
