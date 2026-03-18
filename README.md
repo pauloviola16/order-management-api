@@ -11,13 +11,13 @@ Este projeto foi criado com o objetivo de praticar a construção de APIs backen
 
 ## 🚀 Tecnologias
 
-- ![Java](https://img.shields.io/badge/Java-17-orange?style=flat-square) Java 17
-- ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green?style=flat-square) Spring Boot
-- ![Spring Web](https://img.shields.io/badge/Spring-Web-green?style=flat-square) Spring Web
-- ![Spring Data JPA](https://img.shields.io/badge/Spring-Data%20JPA-green?style=flat-square) Spring Data JPA
-- ![Hibernate](https://img.shields.io/badge/Hibernate-ORM-blue?style=flat-square) Hibernate
-- ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=flat-square) MySQL
-- ![Maven](https://img.shields.io/badge/Maven-3.8+-red?style=flat-square) Maven
+- Java 17
+- Spring Boot
+- Spring Web
+- Spring Data JPA
+- Hibernate
+- MySQL
+- Maven
 
 ## 📚 Funcionalidades
 
