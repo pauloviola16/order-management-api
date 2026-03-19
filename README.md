@@ -39,18 +39,6 @@ Este projeto foi criado com o objetivo de praticar a construção de APIs backen
 | PUT | `/orders/{id}` | Atualizar pedido |
 | DELETE | `/orders/{id}` | Remover pedido |
 
-## 📥 Exemplo de Requisição
-
-### Criar pedido
-
-```json
-POST /orders
-
-{
-  "descricao": "Pedido de teste",
-  "valor": 100.0
-}
-```
 
 ## 📂 Estrutura do Projeto
 
