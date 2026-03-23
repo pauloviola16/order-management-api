@@ -86,7 +86,8 @@ Este projeto foi desenvolvido com o objetivo de simular uma API backend utilizad
 
 ### 🔹 Passos
 
-```bash
+```
+bash
 # Clonar o repositório
 git clone https://github.com/pauloviola16/order-management-api.git
 
@@ -95,6 +96,7 @@ cd order-management-api
 
 # Rodar o projeto
 ./mvnw spring-boot:run
+```
 
 ## 👨‍💻 Autor
 
