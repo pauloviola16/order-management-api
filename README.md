@@ -3,7 +3,7 @@
 API REST desenvolvida com Java e Spring Boot para gerenciamento de pedidos.
 Projeto backend construído com arquitetura em camadas, seguindo boas práticas de mercado, com foco em organização, escalabilidade e integração com banco de dados.
 
-![Status](https://img.shields.io/badge/Status-Pronto-brightgreen)
+![Status](https://img.shields.io/badge/Status-Conclu%C3%ADdo-brightgreen)
 ![Java](https://img.shields.io/badge/Java-17-orange)
 ![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.x-green)
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
@@ -51,6 +51,33 @@ Projeto backend construído com arquitetura em camadas, seguindo boas práticas 
 | PUT | `/orders/{id}` | Atualizar pedido | 200 OK |
 | DELETE | `/orders/{id}` | Remover pedido | 204 No Content |
 
+## 📥 Exemplo de Requisição e Resposta
+
+### 🔹 Criar Pedido
+
+**POST /orders**
+
+**Request:**
+```json
+{
+  "customerName": "João Silva",
+  "product": "Notebook",
+  "quantity": 2,
+  "price": 3500.00
+}
+```
+
+**Response (201 Created):**
+```json
+{
+  "id": 1,
+  "customerName": "João Silva",
+  "product": "Notebook",
+  "quantity": 2,
+  "totalPrice": 7000.00
+}
+```
+
 ## 📂 Estrutura do Projeto
 
 ```
@@ -60,22 +87,21 @@ src/main/java/com/paulo/ordermanagementapi
 ├── repository
 ├── entity
 ├── dto
-│ ├── request
-│ └── response
+│   ├── request
+│   └── response
 └── exception
 ```
-
 
 A aplicação segue uma arquitetura em camadas, separando responsabilidades entre API, regras de negócio e acesso a dados.
 
 ## 🎯 Objetivo do Projeto
 
-Este projeto foi desenvolvido com o objetivo de simular uma API backend utilizada em ambiente corporativo, aplicando boas práticas de desenvolvimento, como:
+Este projeto foi desenvolvido para demonstrar habilidades em desenvolvimento backend com Java e Spring Boot, incluindo:
 
-- Arquitetura em camadas
-- Separação de responsabilidades
-- Integração com banco de dados relacional
-- Implementação de CRUD completo com boas práticas
+- Construção de APIs RESTful
+- Aplicação de arquitetura em camadas
+- Uso de boas práticas (DTOs, validação, tratamento de exceções)
+- Integração com banco de dados relacional (MySQL)
 
 ## ▶️ Como rodar o projeto
 
@@ -86,8 +112,7 @@ Este projeto foi desenvolvido com o objetivo de simular uma API backend utilizad
 
 ### 🔹 Passos
 
-```
-bash
+```bash
 # Clonar o repositório
 git clone https://github.com/pauloviola16/order-management-api.git
 
@@ -97,6 +122,9 @@ cd order-management-api
 # Rodar o projeto
 ./mvnw spring-boot:run
 ```
+
+A aplicação estará disponível em:
+http://localhost:8080
 
 ## 👨‍💻 Autor
 
