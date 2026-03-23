@@ -60,6 +60,8 @@ src/main/java/com/paulo/ordermanagementapi
 ├── repository
 ├── entity
 ├── dto
+│ ├── request
+│ └── response
 └── exception
 ```
 
