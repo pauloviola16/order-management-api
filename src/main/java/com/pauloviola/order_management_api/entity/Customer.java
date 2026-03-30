@@ -2,6 +2,7 @@ package com.pauloviola.order_management_api.entity;
 
 import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
@@ -30,6 +31,10 @@ public class Customer {
     @Column(nullable = false)
     @NotBlank(message = "Nome é obrigatório")
     private String name;
+
+    @NotBlank(message = "Senha é obrigatória")
+    @Min(6)
+    private String password;
 
     @OneToMany(mappedBy = "customer")
     private List<Order> orders;
