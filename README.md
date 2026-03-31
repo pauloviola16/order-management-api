@@ -113,10 +113,10 @@ http://localhost:8080/swagger-ui/index.html
 
 ### 🐳 Com Docker
 ```bash
-docker pull pauloviola16/spring-ordermanagement-api
+docker pull pauloviola/spring-ordermanagement-api
 ```
 
-🔗 [Ver imagem no Docker Hub](https://hub.docker.com/r/pauloviola16/spring-ordermanagement-api)
+🔗 [Ver imagem no Docker Hub](https://hub.docker.com/repository/docker/pauloviola/order-management-api/)
 
 ### 🔹 Sem Docker
 
