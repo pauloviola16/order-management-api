@@ -8,6 +8,7 @@ API REST desenvolvida com Java e Spring Boot para gerenciamento de pedidos. Proj
 ![MySQL](https://img.shields.io/badge/MySQL-8.0-blue)
 ![Maven](https://img.shields.io/badge/Maven-3.8+-red)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?logo=docker&logoColor=white)
+![Swagger](https://img.shields.io/badge/Swagger-UI-85EA2D?logo=swagger&logoColor=black)
 
 ## 🚀 Tecnologias
 
@@ -26,6 +27,9 @@ API REST desenvolvida com Java e Spring Boot para gerenciamento de pedidos. Proj
 
 ### 🔹 Containerização
 - Docker
+
+### 🔹 Documentação
+- SpringDoc OpenAPI (Swagger UI)
 
 ## 📚 Funcionalidades
 
@@ -96,17 +100,23 @@ A aplicação segue uma arquitetura em camadas, separando responsabilidades entr
 
 ## 🐳 Docker
 
-A imagem da aplicação está disponível no Docker Hub.
+A imagem da aplicação está publicada no Docker Hub e pode ser baixada diretamente, sem necessidade de clonar o repositório ou configurar o ambiente.
 ```bash
 docker pull pauloviola16/spring-ordermanagement-api
 ```
 
+🔗 [Ver imagem no Docker Hub](https://hub.docker.com/r/pauloviola16/spring-ordermanagement-api)
+
 ## 📖 Documentação
 
-Com a aplicação rodando, a documentação completa dos endpoints está disponível via Swagger UI:
+A API conta com documentação interativa gerada automaticamente pelo **SpringDoc OpenAPI**, permitindo visualizar e testar todos os endpoints diretamente pelo navegador.
+
+Com a aplicação rodando, acesse:
 ```
-http://localhost:8080/swagger-ui.html
+http://localhost:8080/swagger-ui/index.html
 ```
+
+> Caso a URL acima não funcione, tente: `http://localhost:8080/swagger-ui.html`
 
 ## ▶️ Como rodar o projeto
 
@@ -138,6 +148,7 @@ Este projeto foi desenvolvido para demonstrar habilidades em desenvolvimento bac
 - Uso de boas práticas (DTOs, validação, tratamento de exceções)
 - Integração com banco de dados relacional (MySQL)
 - Containerização com Docker
+- Documentação com Swagger UI
 
 ## 👨‍💻 Autor
 
