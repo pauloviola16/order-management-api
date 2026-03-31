@@ -98,15 +98,6 @@ src/main/java/com/paulo/ordermanagementapi
 
 A aplicação segue uma arquitetura em camadas, separando responsabilidades entre API, regras de negócio e acesso a dados.
 
-## 🐳 Docker
-
-A imagem da aplicação está publicada no Docker Hub e pode ser baixada diretamente, sem necessidade de clonar o repositório ou configurar o ambiente.
-```bash
-docker pull pauloviola16/spring-ordermanagement-api
-```
-
-🔗 [Ver imagem no Docker Hub](https://hub.docker.com/r/pauloviola16/spring-ordermanagement-api)
-
 ## 📖 Documentação
 
 A API conta com documentação interativa gerada automaticamente pelo **SpringDoc OpenAPI**, permitindo visualizar e testar todos os endpoints diretamente pelo navegador.
@@ -120,20 +111,19 @@ http://localhost:8080/swagger-ui/index.html
 
 ## ▶️ Como rodar o projeto
 
-### 🔹 Pré-requisitos
-- Java 17+
-- Maven
-- MySQL
-
-### 🔹 Passos
+### 🐳 Com Docker
 ```bash
-# Clonar o repositório
+docker pull pauloviola16/spring-ordermanagement-api
+```
+
+🔗 [Ver imagem no Docker Hub](https://hub.docker.com/r/pauloviola16/spring-ordermanagement-api)
+
+### 🔹 Sem Docker
+
+Pré-requisitos: Java 17+, Maven e MySQL configurados localmente.
+```bash
 git clone https://github.com/pauloviola16/order-management-api.git
-
-# Entrar na pasta
 cd order-management-api
-
-# Rodar o projeto
 ./mvnw spring-boot:run
 ```
 
