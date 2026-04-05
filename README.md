@@ -138,7 +138,7 @@ Este projeto foi desenvolvido para demonstrar habilidades em desenvolvimento bac
 - Uso de boas práticas (DTOs, validação, tratamento de exceções)
 - Integração com banco de dados relacional (MySQL)
 - Containerização com Docker
-- Documentação com Swagger U
+- Documentação com Swagger Ui
 
 ## 👨‍💻 Autor
 
