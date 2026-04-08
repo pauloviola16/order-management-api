@@ -18,6 +18,6 @@ public class SwaggerConfig {
                         .description("API para gerenciamento de pedidos, usuários e produtos")
                         .contact(new Contact()
                                 .name("Paulo")
-                                .email("paulo@email.com")));
+                                .email("pcviola.dev@email.com")));
     }
 }
