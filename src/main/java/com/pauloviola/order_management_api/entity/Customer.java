@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.Min;
 import jakarta.validation.constraints.NotBlank;
+import jakarta.validation.constraints.Size;
 import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -32,8 +33,9 @@ public class Customer {
     @NotBlank(message = "Nome é obrigatório")
     private String name;
 
+    @Column(nullable = false)
     @NotBlank(message = "Senha é obrigatória")
-    @Min(6)
+    @Size(min = 6, message = "Senha com no mínimo 6 caractéres")
     private String password;
 
     @OneToMany(mappedBy = "customer")

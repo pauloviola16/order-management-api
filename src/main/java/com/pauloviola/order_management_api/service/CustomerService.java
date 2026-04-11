@@ -27,6 +27,7 @@ public class CustomerService {
         Customer customer = new Customer();
         customer.setName(request.getName());
         customer.setEmail(request.getEmail());
+        customer.setPassword(request.getPassword());
 
         Customer saved = repository.save(customer);
 
