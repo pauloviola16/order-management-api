@@ -7,7 +7,7 @@ import io.swagger.v3.oas.annotations.Operation;
 import io.swagger.v3.oas.annotations.Parameter;
 import io.swagger.v3.oas.annotations.media.Content;
 import io.swagger.v3.oas.annotations.media.Schema;
-import io.swagger.v3.oas.annotations.parameters.RequestBody;
+import org.springframework.web.bind.annotation.RequestBody;
 import io.swagger.v3.oas.annotations.responses.ApiResponse;
 import io.swagger.v3.oas.annotations.responses.ApiResponses;
 import io.swagger.v3.oas.annotations.tags.Tag;
@@ -37,10 +37,7 @@ public class OrderController {
     })
     @PostMapping
     public ResponseEntity<OrderResponse> create(
-            @RequestBody(description = "Dados do pedido", required = true,
-                    content = @Content(schema = @Schema(implementation = OrderRequest.class)))
-            @Valid OrderRequest request) {
-
+          @RequestBody @Valid OrderRequest request) {
         return ResponseEntity.status(HttpStatus.CREATED)
                 .body(service.create(request));
     }

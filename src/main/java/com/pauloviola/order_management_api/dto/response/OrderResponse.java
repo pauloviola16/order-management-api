@@ -15,7 +15,6 @@ public class OrderResponse {
     private Long id;
     private Long customerId;
     private Double total;
+    private OrderStatus status;
 
-    public OrderResponse(Long id, Long id1, OrderStatus status, double total) {
-    }
 }

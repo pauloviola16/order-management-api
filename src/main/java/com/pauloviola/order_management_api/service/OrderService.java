@@ -38,13 +38,14 @@ public class OrderService {
         List<OrderItem> items = new ArrayList<>();
         double total = 0;
 
-        for (OrderItemRequest itemRequest : request.getItens()) {
+        for (OrderItemRequest itemRequest : request.getItems()) {
 
             Product product = productService.findById(itemRequest.getProductId());
 
             OrderItem item = new OrderItem();
             item.setProduct(product);
             item.setQuantity(itemRequest.getQuantity());
+            item.setPrice(product.getPrice());
             item.setOrder(order);
 
             double subtotal = product.getPrice() * itemRequest.getQuantity();
@@ -114,10 +115,10 @@ public class OrderService {
     // MAPPER
     private OrderResponse toResponse(Order order) {
         return new OrderResponse(
-                order.getId(),
-                order.getCustomer().getId(),
-                order.getStatus(),
-                order.getTotal()
-        );
+                        order.getId(),
+                        order.getCustomer().getId(),
+                order.getTotal(),
+                order.getStatus()
+                );
     }
 }

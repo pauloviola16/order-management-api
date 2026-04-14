@@ -8,5 +8,5 @@ import java.util.List;
 public class OrderRequest {
 
     private Long customerId;
-    private List<OrderItemRequest> itens;
+    private List<OrderItemRequest> items;
 }
